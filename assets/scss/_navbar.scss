@@ -1,5 +1,8 @@
 //Navbar Start
 @media screen and (min-width: 768px) {
+  #header {
+    box-shadow: 0 0 2px;
+  }
   .navbar.navbar-expand-lg {
     background: #fff;
     margin-bottom: 0;
@@ -32,8 +35,9 @@
         position: inherit;
 
         > a {
-          color: $text-color;
-          font-size: 14px;
+          color: #666;
+          font-size: 15px;
+          font-weight: 600;
           text-transform: uppercase;
           transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;

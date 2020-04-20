@@ -150,7 +150,7 @@ hr {
   background: linear-gradient(to left, #38ef7d, #11998e); }
 
 .navbar-toggler {
-  color: #fff; }
+  color: #333; }
   .navbar-toggler:focus {
     outline: 0; }
 
@@ -208,7 +208,7 @@ hr {
     transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 150%, 0); }
 
 .breadcrumb-section {
-  padding: 200px 0 30px; }
+  padding: 80px 0; }
 
 .breadcrumb {
   background: transparent;
@@ -589,6 +589,9 @@ blockquote {
     color: #ffffff; }
 
 @media screen and (min-width: 768px) {
+  #header {
+    -webkit-box-shadow: 0 0 2px;
+    box-shadow: 0 0 2px; }
   .navbar.navbar-expand-lg {
     background: #fff;
     margin-bottom: 0;
@@ -612,8 +615,9 @@ blockquote {
       .navbar.navbar-expand-lg .navbar-nav > li {
         position: inherit; }
         .navbar.navbar-expand-lg .navbar-nav > li > a {
-          color: #a5a5a5;
-          font-size: 14px;
+          color: #666;
+          font-size: 15px;
+          font-weight: 600;
           text-transform: uppercase;
           transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
@@ -1258,7 +1262,9 @@ blockquote {
   .feature-6 img {
     margin-bottom: 20px; }
   .feature-6 h4 {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 16px; }
   .feature-6 a {
     color: #a5a5a5; }
     .feature-6 a i {

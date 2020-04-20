@@ -250,8 +250,8 @@ label {
   position: fixed !important;
   right: 0;
   left: 0;
+  top: 0;
   z-index: 1100;
-  margin-top: 30px;
   -o-transition: all 0.4s;
   transition: all 0.4s;
   -webkit-transition: all 0.4s; }
@@ -590,7 +590,7 @@ blockquote {
 
 @media screen and (min-width: 768px) {
   .navbar.navbar-expand-lg {
-    background: transparent;
+    background: #fff;
     margin-bottom: 0;
     border: none;
     border-radius: 0;
@@ -972,7 +972,8 @@ blockquote {
       font-weight: 900;
       text-transform: uppercase;
       margin-bottom: 40px;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      text-align: center; }
     .banner-section .banner-text p {
       font-size: 20px;
       text-align: center;

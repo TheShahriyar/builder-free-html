@@ -6,10 +6,10 @@
     $(window).on("scroll", function () {
       if ($(window).width() > 800) {
         if ($(window).scrollTop() > 100) {
-          $("#header").addClass("navbar-bg");
+          $("#header").addClass("navbar-fixed-top");
           $("#back-to-top").addClass("reveal");
         } else {
-          $("#header").removeClass("navbar-bg");
+          $("#header").removeClass("navbar-fixed-top");
           $("#back-to-top").removeClass("reveal");
         }
       }
@@ -21,29 +21,6 @@
       nav: false,
       dots: true,
       margin: 20,
-      autoplay: true,
-      autoplayHoverPause: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 1,
-        },
-        1200: {
-          items: 1,
-        },
-      },
-    });
-
-    // Result
-    $(".team-container").owlCarousel({
-      loop: true,
-      nav: false,
-      dots: true,
-      items: 1,
-      margin: 30,
       autoplay: true,
       autoplayHoverPause: true,
       responsiveClass: true,

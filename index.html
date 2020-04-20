@@ -68,63 +68,68 @@
     <!--End Top Header Section-->
 
     <!--Start Navbar Section-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
+    <header class="clearfix" id="header">
+      <!-- Static navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img alt="" src="assets/images/logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Project</a>
+              </li>
+              <li class="nav-item drop">
+                <a href="#" class="nav-link">Pages</a>
+                <ul class="drop-down">
+                  <li><a href="about.html" class="active">About Us</a></li>
+                  <li><a href="chef.html">Chef</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="404.html">404 Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item drop">
+                <a class="nav-link" href="#">Blog</a>
+                <ul class="drop-down">
+                  <li>
+                    <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="blog-single-pos-right-sidebar.html"
+                      >Single Right Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!--End Navbar Section-->
 
     <!--Start Banner Section-->
@@ -163,7 +168,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="about-text">
+            <div class="about-text mbl-mt-30">
               <div class="about-title">
                 <h3>We Build Everything That You Need</h3>
               </div>
@@ -214,7 +219,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -234,7 +239,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -254,7 +259,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -274,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -294,7 +299,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -314,7 +319,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -334,7 +339,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -354,7 +359,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -374,7 +379,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="feature-2 white">
               <div class="media">
                 <div class="media-left">
@@ -995,18 +1000,6 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                   <div class="form-group">
-                    <input
-                      name="address"
-                      class="form-control"
-                      id="address"
-                      type="text"
-                      placeholder="Your Address"
-                      required="required"
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="form-group">
                     <select
                       name="category"
                       class="form-control"
@@ -1019,23 +1012,6 @@
                       <option value="Kitchen">Kitchen</option>
                       <option value="Bathroom">Bathroom</option>
                       <option value="Drawing Room">Drawing Room</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="form-group">
-                    <select
-                      name="room-no"
-                      class="form-control"
-                      id="room-no"
-                      required="required"
-                    >
-                      <option value="" selected="selected">Room No</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
                     </select>
                   </div>
                 </div>
@@ -1060,7 +1036,7 @@
               <div id="msgSubmit" class="h3 text-center hidden"></div>
             </form>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mbl-mt-30">
             <div class="section-title left">
               <h3>Client's Review</h3>
             </div>
@@ -1126,7 +1102,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="buttons" style="display: flex;">
+            <div class="buttons mbl-mt-30" style="display: flex;">
               <a href="#" class="btn btn-primary white-bg mr-2">Get a Quote</a>
               <a href="#" class="btn btn-primary">Contact Us</a>
             </div>

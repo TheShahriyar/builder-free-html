@@ -1,0 +1,208 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .left-half {
+    background-position-x: 15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tab-hidden {
+    display: none;
+  }
+  .left-half {
+    background-position-x: 15%;
+  }
+
+  .tab-mb-30 {
+    margin-bottom: 30px !important;
+  }
+
+  .navbar-fixed-top {
+    margin-top: 0;
+    background-color: #000;
+    position: inherit !important;
+  }
+
+  .countdown-section {
+    h2 {
+      font-size: 50px;
+    }
+    h3 {
+      font-size: 34px;
+    }
+  }
+
+  .welcome-img {
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  .feature-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .address-box {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .tab-hidden {
+    display: none;
+  }
+
+  .about-title-1 {
+    h3 {
+      font-size: 27px;
+      line-height: 40px;
+    }
+  }
+
+  .help-center {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .right-side {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 767px) {
+  .mbl-hidden {
+    display: none;
+  }
+
+  .mbl-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mbl-mt-30 {
+    margin-top: 30px;
+  }
+  .pad-t110 {
+    padding-top: 50px;
+  }
+  .pad-t100 {
+    padding-top: 50px;
+  }
+  .pad-b80 {
+    padding-bottom: 40px;
+  }
+
+  .pad100 {
+    padding: 50px 0;
+  }
+
+  .navbar-fixed-top {
+    margin-top: 0;
+    background-color: #000;
+    position: inherit !important;
+  }
+
+  .welcome-img {
+    img {
+      width: 100%;
+    }
+
+    &.award {
+      text-align: center;
+      margin-bottom: 30px;
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .feature-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .special-dish-container {
+    .special-dish {
+      .media {
+        display: block;
+      }
+    }
+  }
+
+  .restaurant-menu-tab .nav-pills .nav-item .nav-link {
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+
+  .restaurant-menu-tab .nav-pills .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .call-center {
+    display: block;
+    .left-side {
+      margin-bottom: 30px;
+    }
+  }
+
+  .address-box {
+    margin-bottom: 30px;
+  }
+
+  .margin80 {
+    margin: 30px 0;
+  }
+
+  .mbl-display {
+    display: inline-block;
+  }
+
+  .mbl-mt30 {
+    margin-top: 30px !important;
+  }
+
+  .section-title {
+    h3 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+
+  .right-half.width50,
+  .left-half.width50 {
+    width: 0%;
+  }
+
+  .copyright-link {
+    justify-content: flex-start;
+  }
+
+  .blog-post .blog-post-content .post-format.width10,
+  .single-blog-post .blog-post-content .post-format.width10 {
+    width: 15%;
+    display: inline-flex;
+  }
+
+  .blog-post .blog-post-content .post-description h1,
+  .single-blog-post .blog-post-content .post-description h1 {
+    margin-top: 10px;
+  }
+
+  .breadcrumb {
+    float: left;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-contact .item {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+}
